@@ -1,0 +1,180 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rokkitt", serif;
+}
+
+.header {
+  height: 72px;
+  margin-bottom: 2px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 96px;
+  text-align: center;
+  align-items: center;
+}
+
+.logo-box {
+  grid-column: 2;
+}
+
+.web-logo {
+  height: 70px;
+}
+
+/*****************************************/
+
+.btn {
+  padding: 12px;
+  background-color: rgb(77, 77, 143);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(49, 49, 107);
+}
+
+.icon {
+  font-size: 14px;
+}
+
+.horizontal {
+  border-top: 1px solid #ddd;
+}
+
+/*
+      navigation section
+      
+      */
+
+.nav {
+	display:flex;
+  height: 50px;
+}
+
+.navigation {
+  padding: 15px;
+  display:flex;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.nav-li {
+	margin-right:48px;
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #aaa;
+}
+
+/*
+      section-design
+  */
+
+section {
+  padding: 24px 48px 24px 48px;
+}
+
+.thank-msg {
+  text-align: center;
+}
+
+.contenst-container {
+  margin: 0px 400px;
+}
+
+.head {
+  font-size: 36px;
+  color: #333;
+}
+
+.title {
+  font-size: 24px;
+  color: rgb(73, 173, 255);
+  margin-bottom: 24px;
+}
+
+.contenst {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+}
+
+.img-box,
+.party-box {
+  text-align: center;
+}
+
+.cname,
+.party {
+  font-size: 24px;
+  color: #555;
+}
+.center{
+	text-align:center;
+	margin-bottom:24px;
+}
+.button{
+	    background-color: #afaffe;
+    padding: 10px;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+	text-decoration: none;
+	font-weight : bold; 
+	}
+	
+.button:hover{
+	text-decoration : underline;
+}
+
+/*
+      footer-section
+  */
+.footer {
+  background-color: #eee;
+  text-align: center;
+}
+
+.footer p {
+  color: rgb(36, 123, 194);
+  padding: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wp-link:link,
+.wp-link:visited {
+  color: rgb(36, 123, 194);
+  text-decoration: none;
+}
+
+.wp-link:hover,
+.wp-link:active {
+  color: rgb(125, 197, 255);
+}

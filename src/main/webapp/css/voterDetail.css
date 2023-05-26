@@ -1,0 +1,201 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rokkitt", serif;
+}
+
+.header {
+  height: 72px;
+  margin-bottom: 2px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 96px;
+  text-align: center;
+  align-items: center;
+}
+
+.logo-box {
+  grid-column: 2;
+}
+
+.web-logo {
+  height: 70px;
+}
+
+.search-box {
+  grid-column: 3;
+  background-color: #eee;
+  width: 71%;
+  border-radius: 23px;
+
+  margin: 0px 48px;
+}
+
+.search {
+  padding: 10px;
+  background-color: #eee;
+  width:80%;
+  border: none;
+  font-size: 18px;
+  border-radius: 23px;
+}
+
+/*****************************************/
+
+.btn {
+  padding: 12px;
+  background-color: rgb(77, 77, 143);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(49, 49, 107);
+}
+
+.icon {
+  font-size: 14px;
+}
+
+.horizontal {
+  border-top: 1px solid #ddd;
+}
+
+/*
+    navigation section
+    
+    */
+
+.nav {
+	display:flex;
+  	height: 50px;
+}
+
+.navigation {
+	display:flex;
+  	padding: 15px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.nav-li {
+  margin-right:48px;
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #aaa;
+}
+
+/*
+  
+  profile section
+  
+  */
+
+.background {
+  background-color: #eee;
+  height: 120px;
+}
+
+.profile-img {
+  margin-top: -60px;
+  margin-left: 565px;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.detail-container {
+  padding: 0px 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin-bottom: 24px;
+}
+
+.name {
+  color: #444;
+  font-weight: bold;
+  margin-left: 565px;
+}
+
+.age {
+  margin-top: 24px;
+}
+
+.age,
+.area,
+.location {
+  color: #555;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align:center;
+}
+
+.vote-box {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.vote {
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.vote:hover {
+  background-color: #999;
+  color: #222;
+}
+
+/*
+      footer-section
+  */
+.footer {
+  background-color: #eee;
+  text-align: center;
+}
+
+.footer p {
+  color: rgb(36, 123, 194);
+  padding: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wp-link:link,
+.wp-link:visited {
+  color: rgb(36, 123, 194);
+  text-decoration: none;
+}
+
+.wp-link:hover,
+.wp-link:active {
+  color: rgb(125, 197, 255);
+}
+
